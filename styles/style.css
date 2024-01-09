@@ -6,43 +6,15 @@ common styles:
 */
 
 /* shared common styles */
-.heading-font {
+.font-erriweather {
     font-family: 'Merriweather', serif;
 }
 
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
 /* header part */
-/*#banner {
-    background-image: url(../images/Banner\ Image.png);
-    background-repeat: no-repeat;
-    width: 1320px;
-    height: 600px;
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-/*
-
-div {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    width: 1320px;
-    height: 600px;
-}
-
-h1 {
-    font-size: 72px;
-
-}
-
-h3 {
-    font-size: 32px;
-} */
-
 .banner-bg {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     width: 1320px;
@@ -71,15 +43,47 @@ h3 {
 }
 
 
-h1 {
+.first-heading {
     color: #FFF;
     font-size: 72px;
     font-weight: 900px;
     margin-top: 0;
 }
 
-h3 {
+.third-heading {
     font-size: 32px;
     font-weight: 400px;
     color: #ffffffe9;
+}
+
+/* offer part */
+.offer-first-heading {
+
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.fifth-heading {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: -20px 0;
+}
+
+.second-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#offer-photo {
+    width: 802px;
+    height: 500px;
+    margin-top: 48px;
+}
+
+.offer-part {
+    text-align: center;
+    margin-top: 100px;
 }
