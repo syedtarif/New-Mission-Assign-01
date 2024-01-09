@@ -1,10 +1,3 @@
-/* 
-common styles:
-    * heading(h1)-font & color
-    * color red
-
-*/
-
 /* shared common styles */
 * {
     margin: 0;
@@ -26,7 +19,6 @@ common styles:
 
     margin-top: 20px;
     margin-bottom: 100px;
-    /* border: 2px solid red; */
 }
 
 .fifth-heading {
@@ -40,6 +32,10 @@ common styles:
     font-size: 20px;
     font-weight: 400;
     margin: 20px 0 40px 0;
+}
+
+.orenge-color {
+    color: #F00;
 }
 
 /* header part */
@@ -148,9 +144,45 @@ common styles:
     margin: 5px 0 30px 0;
 }
 
+/* schedule part */
+.schedule-part {
+    background-color: rgb(255, 242, 242);
+    padding: 80px 0;
+    border-radius: 16px;
+}
+
+.schedule-part button {
+    color: #FFF;
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+
+    padding: 25px 25px 25px 30px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.btn-position {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 10px 0;
+}
+
+.schedule-third-heading {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
 /* awesome part */
 .awesome-product {
-    margin: 0 0 10px 10px
+    margin: 0 0 10px 10px;
+}
+
+.awesome-product:hover {
+    border: 05px solid #FF0000;
+    border-radius: 16px;
 }
 
 /* subscribe part */
@@ -185,7 +217,6 @@ common styles:
 footer {
     height: 609px;
     background-color: rgb(0, 0, 0);
-    /* border: 2px solid red; */
 }
 
 .footer-text {
@@ -196,14 +227,12 @@ footer {
 
 .alignment {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
 .footer-alignment {
     display: flex;
     justify-content: space-around;
-    /* border: 5px solid green; */
     line-height: 40px;
 
     padding: 100px 0 50px 0;
@@ -236,7 +265,6 @@ hr {
 }
 
 .copyright-alignment button {
-    /* border: 5px solid red; */
     color: #FFF;
     background-color: #070211;
 
