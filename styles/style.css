@@ -87,3 +87,44 @@ common styles:
     text-align: center;
     margin-top: 100px;
 }
+
+/* welcome part */
+.welcome-bg {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 1320px;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+    border-radius: 16px;
+}
+
+.welcome-part {
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+
+    margin-top: 100px;
+}
+
+.btn-style {
+    color: #FFF;
+    background-color: #070211;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 20px;
+}
+
+.welcome-paragraph {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+}
